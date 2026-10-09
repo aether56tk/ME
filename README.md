@@ -23,13 +23,21 @@ Become a capable, compassionate, disciplined professional who connects **speech 
 | 🏋️ Project Iron Will | Develop sustainable fitness, discipline, and personal growth | Ongoing |
 | 🧠 Life systems | Use flexible focus supports instead of rigid timetables | Ongoing |
 
-See the [roadmap](docs/ROADMAP.md), [interests](docs/INTERESTS.md), [academics](docs/ACADEMICS.md), [projects](docs/PROJECTS.md), and [trackers](tracker/).
+## Quick access
+
+- [BASLP HQ](docs/BASLP_HQ.md) — semester subjects, SSD backlog, study loop, clinical skills, exam answer bank.
+- [Research Lab](docs/RESEARCH_LAB.md) — research portfolio, validation principles, EPG-CP concept, and project notes.
+- [Cybersecurity Track](docs/CYBERSECURITY.md) — defensive security, SOC/cloud foundations, and medical-device security.
+- [Project Iron Will](docs/PROJECT_IRON_WILL.md) — sustainable personal development, fitness, and weekly scorecard.
+- [Future Goals](docs/FUTURE_GOALS.md) — interests, priorities, and decision filter.
+- [Roadmap](docs/ROADMAP.md) · [Interests](docs/INTERESTS.md) · [Academic tracker](docs/ACADEMICS.md) · [Projects](docs/PROJECTS.md)
+- [Goal tracker](tracker/GOAL_TRACKER.md) · [Weekly review](tracker/WEEKLY_REVIEW.md) · [Privacy rules](docs/PRIVACY.md)
 
 ## Project portfolio
 
 - [HearSec](https://github.com/aether56tk/HearSec) — research direction: cybersecurity and privacy risk assessment for connected hearing aids.
 - [TinniRelief](https://github.com/aether56tk/TinniRelief) — browser-based tinnitus rehabilitation concept.
-- [Vowel Space Area](https://github.com/aether56tk/vowel-space-area) — speech-acoustic measures using corner-vowel formant values.
+- [Vowel Space Area](https://github.com/aether56tk/vowel-space-area) — speech-acoustic measures using corner-vowel formant values. **Parked until explicitly resumed; do not modify without a direct request.**
 - [NeuroABR](https://github.com/aether56tk/NeuroABR) — project in the hearing/neurodiagnostic space.
 - [AudiQ](https://github.com/aether56tk/AudiQ) — audiology-related project.
 - [PhonaCore-ASLP](https://github.com/aether56tk/PhonaCore-ASLP) — speech-language pathology / ASLP project.
