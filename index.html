@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="A personal command centre for learning, research, projects, and long-term growth.">
+  <title>ME — Personal Dashboard</title>
+  <style>
+    :root{color-scheme:dark;--bg:#090d18;--panel:#111827;--panel2:#151f31;--line:#273449;--text:#eef3ff;--muted:#a6b2c8;--accent:#79a8ff;--mint:#7ee4c1;--gold:#ffd58a;--radius:20px;--max:1120px}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:radial-gradient(ellipse at 85% 0%,#17264a 0,transparent 35%),var(--bg);color:var(--text);font:16px/1.6 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:inherit;text-decoration:none}
+    a:focus-visible{outline:3px solid var(--mint);outline-offset:4px;border-radius:8px}
+    .wrap{width:min(var(--max),calc(100% - 40px));margin:auto}
+    .topbar{border-bottom:1px solid #ffffff12;background:#090d18c9;backdrop-filter:blur(12px)}
+    .nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.02em}
+    .mark{display:grid;place-items:center;width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,#78a8ff,#8ae7cf);color:#08111d;font-weight:900}
+    .navlinks{display:flex;gap:20px;flex-wrap:wrap;color:var(--muted);font-size:.9rem}
+    .navlinks a:hover,.link:hover{color:var(--mint)}
+    .hero{padding:68px 0 38px}
+    .eyebrow{display:inline-flex;align-items:center;gap:9px;padding:6px 11px;border:1px solid #7ee4c13d;border-radius:999px;color:var(--mint);font-size:.78rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+    .dot{width:7px;height:7px;border-radius:50%;background:var(--mint);box-shadow:0 0 12px #7ee4c1}
+    h1{font-size:clamp(2.5rem,7vw,5rem);line-height:1.02;letter-spacing:-.055em;margin:22px 0 18px;max-width:850px}
+    .gradient{background:linear-gradient(100deg,#f5f7ff 15%,#83b1ff 55%,#7ee4c1 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .lead{font-size:clamp(1rem,2vw,1.2rem);color:var(--muted);max-width:700px;margin:0}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:11px 16px;border-radius:12px;font-weight:750;border:1px solid var(--line);transition:transform .18s,border-color .18s}
+    .btn:hover{transform:translateY(-2px);border-color:#7fa8f7}
+    .primary{background:var(--accent);color:#071020;border-color:transparent}
+    .secondary{background:#ffffff06}
+    .section{padding:30px 0}
+    .section-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:18px}
+    h2{font-size:1.45rem;letter-spacing:-.025em;margin:0}
+    .section-note{color:var(--muted);font-size:.9rem;margin:4px 0 0}
+    .grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:16px}
+    .card{background:linear-gradient(145deg,#141d2d,#0f1624);border:1px solid var(--line);border-radius:var(--radius);padding:22px;min-width:0;transition:transform .2s,border-color .2s}
+    .card:hover{transform:translateY(-3px);border-color:#536b91}
+    .span-4{grid-column:span 4}.span-6{grid-column:span 6}.span-8{grid-column:span 8}.span-12{grid-column:span 12}
+    .card-top{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+    .icon{width:44px;height:44px;display:grid;place-items:center;border:1px solid #ffffff12;background:#ffffff08;border-radius:14px;font-size:1.35rem;flex-shrink:0}
+    .card h3{margin:0;font-size:1.08rem;letter-spacing:-.015em}
+    .tag{display:inline-flex;border:1px solid #ffffff16;background:#ffffff08;color:var(--muted);border-radius:999px;padding:3px 9px;font-size:.74rem;margin-top:5px}
+    .card p{margin:0;color:var(--muted);font-size:.94rem}
+    .card-link{display:inline-flex;margin-top:18px;align-items:center;gap:8px;color:var(--accent);font-weight:750;font-size:.92rem}
+    .priority{display:flex;align-items:flex-start;gap:16px;background:linear-gradient(115deg,#172641,#11251f);border:1px solid #7ee4c133;border-radius:var(--radius);padding:24px}
+    .priority .icon{background:#7ee4c112}
+    .priority h3{margin:0 0 6px;font-size:1.12rem}
+    .priority p{margin:0;color:var(--muted)}
+    .pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:15px}
+    .pill{font-size:.82rem;color:#d9e6ff;border:1px solid #ffffff17;border-radius:9px;padding:5px 9px;background:#ffffff07}
+    .project-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:15px}
+    .project{display:flex;align-items:center;gap:10px;padding:12px;border:1px solid #ffffff12;background:#ffffff04;border-radius:12px;min-width:0}
+    .project strong{display:block;font-size:.9rem;overflow-wrap:anywhere}
+    .project small{display:block;color:var(--muted);font-size:.78rem}
+    .arrow{margin-left:auto;color:var(--muted)}
+    .principles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+    .principle{padding:17px;border-left:2px solid var(--mint);background:#ffffff04;border-radius:0 12px 12px 0}
+    .principle strong{display:block;font-size:.92rem;margin-bottom:4px}
+    .principle span{color:var(--muted);font-size:.85rem}
+    footer{margin-top:42px;border-top:1px solid var(--line);padding:24px 0 36px;color:var(--muted);font-size:.85rem}
+    footer .foot{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    @media(max-width:800px){.span-4,.span-6,.span-8{grid-column:span 6}.navlinks{gap:12px}.hero{padding-top:48px}}
+    @media(max-width:560px){.wrap{width:min(100% - 28px,var(--max))}.nav{padding:12px 0;align-items:flex-start;flex-direction:column;gap:10px}.navlinks{font-size:.82rem;gap:14px}.hero{padding-top:38px}.span-4,.span-6,.span-8,.span-12{grid-column:span 12}.card{padding:18px}.project-list,.principles{grid-template-columns:1fr}.section-head{align-items:flex-start;flex-direction:column}.priority{padding:18px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap nav">
+      <a class="brand" href="#home" aria-label="ME dashboard home"><span class="mark">M.</span><span>ME <span style="color:var(--muted);font-weight:500">/ dashboard</span></span></a>
+      <nav class="navlinks" aria-label="Main navigation">
+        <a href="#focus">Focus</a><a href="#domains">Life areas</a><a href="#projects">Projects</a><a href="#library">Resource library</a>
+        <a href="https://github.com/aether56tk/ME">GitHub ↗</a>
+      </nav>
+    </div>
+  </header>
+  <main id="home" class="wrap">
+    <section class="hero">
+      <span class="eyebrow"><span class="dot"></span> Personal command centre</span>
+      <h1>Build a life of <span class="gradient">skill, purpose, and momentum.</span></h1>
+      <p class="lead">A calm home for what I’m learning, what I’m building, and the person I’m working to become. Small consistent actions beat perfect plans.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#focus">↗ Start with today’s focus</a>
+        <a class="btn secondary" href="tracker/GOAL_TRACKER.md">View goal tracker →</a>
+      </div>
+    </section>
+
+    <section id="focus" class="section">
+      <div class="section-head"><div><h2>Current focus</h2><p class="section-note">Keep the next step small, clear, and realistic.</p></div></div>
+      <div class="priority">
+        <div class="icon" aria-hidden="true">🎯</div>
+        <div>
+          <h3>Study first. Build steadily. Protect your energy.</h3>
+          <p>Prioritise BASLP exam preparation and the Speech Sound Disorders (SSD) backlog. Keep clinical fundamentals active, then choose one manageable project task. This is a direction—not a live progress feed.</p>
+          <div class="pills"><span class="pill">BASLP + SSD</span><span class="pill">Clinical fundamentals</span><span class="pill">One project step</span><span class="pill">Rest matters</span></div>
+          <a class="card-link" href="docs/BASLP_HQ.md">Open BASLP HQ <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="domains" class="section">
+      <div class="section-head"><div><h2>Life areas</h2><p class="section-note">Connected ambitions, organised into manageable lanes.</p></div></div>
+      <div class="grid">
+        <article class="card span-4"><div class="card-top"><div class="icon">🎓</div><div><h3>Study & BASLP</h3><span class="tag">Academic foundation</span></div></div><p>Semester subjects, SSD revision, exam answers, and a structured path from concepts to clinical reasoning.</p><a class="card-link" href="docs/BASLP_HQ.md">Study hub →</a></article>
+        <article class="card span-4"><div class="card-top"><div class="icon">🩺</div><div><h3>Clinical skills</h3><span class="tag">Learn with supervision</span></div></div><p>Assessment concepts, interpretation, documentation, rehabilitation, and reflective practice.</p><a class="card-link" href="docs/ACADEMICS.md">Clinical tracker →</a></article>
+        <article class="card span-4"><div class="card-top"><div class="icon">🛡️</div><div><h3>Cybersecurity</h3><span class="tag">Defensive security</span></div></div><p>Build foundations in SOC work, cloud security, privacy, and medical-device risk.</p><a class="card-link" href="docs/CYBERSECURITY.md">Learning path →</a></article>
+        <article class="card span-4"><div class="card-top"><div class="icon">🔬</div><div><h3>Research lab</h3><span class="tag">Evidence first</span></div></div><p>Develop research questions, test prototypes, document methods, and state limitations honestly.</p><a class="card-link" href="docs/RESEARCH_LAB.md">Research workspace →</a></article>
+        <article class="card span-4"><div class="card-top"><div class="icon">🏋️</div><div><h3>Project Iron Will</h3><span class="tag">Sustainable growth</span></div></div><p>Build fitness, discipline, healthy routines, and resilience without all-or-nothing pressure.</p><a class="card-link" href="docs/PROJECT_IRON_WILL.md">Open the plan →</a></article>
+        <article class="card span-4"><div class="card-top"><div class="icon">🧭</div><div><h3>Goals & direction</h3><span class="tag">Choose intentionally</span></div></div><p>Keep long-term goals visible and avoid overloading the week with too many new commitments.</p><a class="card-link" href="docs/FUTURE_GOALS.md">Explore goals →</a></article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-head"><div><h2>Project portfolio</h2><p class="section-note">A directory of ideas and repositories—not a claim that every project is finished.</p></div><a class="card-link" href="docs/PROJECTS.md">Project notes →</a></div>
+      <div class="card">
+        <div class="project-list">
+          <a class="project" href="https://github.com/aether56tk/HearSec"><span>🔐</span><span><strong>HearSec</strong><small>Medical-device privacy & security</small></span><span class="arrow">↗</span></a>
+          <a class="project" href="https://github.com/aether56tk/TinniRelief"><span>🎧</span><span><strong>TinniRelief</strong><small>Tinnitus support concept</small></span><span class="arrow">↗</span></a>
+          <a class="project" href="https://github.com/aether56tk/NeuroABR"><span>🧠</span><span><strong>NeuroABR</strong><small>Hearing / neurodiagnostic project</small></span><span class="arrow">↗</span></a>
+          <a class="project" href="https://github.com/aether56tk/AudiQ"><span>📊</span><span><strong>AudiQ</strong><small>Audiology-related project</small></span><span class="arrow">↗</span></a>
+          <a class="project" href="https://github.com/aether56tk/PhonaCore-ASLP"><span>🗣️</span><span><strong>PhonaCore-ASLP</strong><small>Speech-language pathology</small></span><span class="arrow">↗</span></a>
+          <a class="project" href="https://github.com/aether56tk/DDKLab"><span>🧪</span><span><strong>DDKLab</strong><small>Speech / clinical technology</small></span><span class="arrow">↗</span></a>
+        </div>
+        <p style="margin-top:16px;font-size:.82rem">Vowel Space Area is intentionally parked until explicitly resumed; this dashboard does not modify that project.</p>
+      </div>
+    </section>
+
+    <section id="library" class="section">
+      <div class="section-head"><div><h2>Resource library</h2><p class="section-note">Jump into the working documents and weekly systems.</p></div></div>
+      <div class="grid">
+        <a class="card span-6" href="docs/ROADMAP.md"><div class="card-top"><div class="icon">🗺️</div><div><h3>Roadmap</h3><span class="tag">Long-term direction</span></div></div><p>Milestones across study, clinical development, research, technology, and personal growth.</p><span class="card-link">Open roadmap →</span></a>
+        <a class="card span-6" href="tracker/GOAL_TRACKER.md"><div class="card-top"><div class="icon">✅</div><div><h3>Goal tracker</h3><span class="tag">Next actions</span></div></div><p>Keep goals actionable, log evidence of progress, and select a few priorities.</p><span class="card-link">Track goals →</span></a>
+        <a class="card span-6" href="tracker/WEEKLY_REVIEW.md"><div class="card-top"><div class="icon">🔁</div><div><h3>Weekly review</h3><span class="tag">Reset without guilt</span></div></div><p>Notice what worked, adjust what didn’t, and choose a realistic next week.</p><span class="card-link">Review the week →</span></a>
+        <a class="card span-6" href="docs/PRIVACY.md"><div class="card-top"><div class="icon">🔒</div><div><h3>Privacy & safety</h3><span class="tag">Protect sensitive data</span></div></div><p>Rules for keeping patient information, private details, credentials, and secrets out of public repositories.</p><span class="card-link">Read safeguards →</span></a>
+        <a class="card span-6" href="docs/INTERESTS.md"><div class="card-top"><div class="icon">✨</div><div><h3>Interests</h3><span class="tag">Curiosity map</span></div></div><p>A record of the domains I want to explore and connect over time.</p><span class="card-link">Browse interests →</span></a>
+        <a class="card span-6" href="docs/ACADEMICS.md"><div class="card-top"><div class="icon">📚</div><div><h3>Academic tracker</h3><span class="tag">Semester overview</span></div></div><p>Subject status and a practical record for revising units and strengthening fundamentals.</p><span class="card-link">Open tracker →</span></a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><div><h2>Operating principles</h2><p class="section-note">The system should support life—not become another source of pressure.</p></div></div>
+      <div class="principles">
+        <div class="principle"><strong>Start smaller than you think</strong><span>Five focused minutes can restart momentum.</span></div>
+        <div class="principle"><strong>Evidence over perfection</strong><span>Record what you actually learned, built, or practised.</span></div>
+        <div class="principle"><strong>Rest is part of progress</strong><span>Return without guilt; don’t punish yourself for missed days.</span></div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap foot"><span>ME · Personal dashboard</span><span>Built for steady progress, not perfection.</span><a class="link" href="https://github.com/aether56tk/ME">View source on GitHub ↗</a></div></footer>
+</body>
+</html>
