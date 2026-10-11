@@ -35,6 +35,7 @@ Become a capable, compassionate, disciplined professional who connects **speech 
 
 ## Project portfolio
 
+- [ClinicCraft](ClinicCraft/) — healthcare documentation and presentation formatting service concept with a Supabase enquiry form. Hosting and live submission need verification.
 - [HearSec](https://github.com/aether56tk/HearSec) — research direction: cybersecurity and privacy risk assessment for connected hearing aids.
 - [TinniRelief](https://github.com/aether56tk/TinniRelief) — browser-based tinnitus rehabilitation concept.
 - [Vowel Space Area](https://github.com/aether56tk/vowel-space-area) — speech-acoustic measures using corner-vowel formant values. **Parked until explicitly resumed; do not modify without a direct request.**
