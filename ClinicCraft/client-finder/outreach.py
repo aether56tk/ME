@@ -38,7 +38,7 @@ def write_queue(rows):
             w.writerow({k: row.get(k, "") for k in FIELDS})
 
 def norm(s): return (s or "").strip().lower()
-def valid_email(s): return bool(re.fullmatch(r"[^\\s@]+@[^\\s@]+\\.[^\\s@]+", (s or "").strip()))
+def valid_email(s): return bool(re.fullmatch(r"[^\s@]+@[^\s@]+\.[^\s@]+", (s or "").strip()))
 
 def make_message(row):
     org = row.get("organization","").strip() or "there"
@@ -46,13 +46,13 @@ def make_message(row):
     reason = row.get("why_relevant","").strip()
     reason_line = f"I noticed your public request about {reason[:220]}. " if reason else ""
     return (
-        f"Subject: Help with {service}\\n\\n"
-        f"Hello {row.get('contact_name','').strip() or org} team,\\n\\n"
+        f"Subject: Help with {service}\n\n"
+        f"Hello {row.get('contact_name','').strip() or org} team,\n\n"
         f"{reason_line}I run ClinicCraft, a small student-led service for clear presentation and document formatting. "
         f"I can help with {service}. PowerPoint cleanup starts at ₹299 for up to 10 slides, and document/report layout starts at ₹249. "
-        f"You can see the service details here: https://aether56tk.github.io/ME/ClinicCraft/\\n\\n"
-        f"If this is relevant, I’d be happy to discuss the scope and turnaround before you decide. If not, no action is needed.\\n\\n"
-        f"Regards,\\nClinicCraft\\ncliniccraft.studio@gmail.com\\n"
+        f"You can see the service details here: https://aether56tk.github.io/ME/ClinicCraft/\n\n"
+        f"If this is relevant, I’d be happy to discuss the scope and turnaround before you decide. If not, no action is needed.\n\n"
+        f"Regards,\nClinicCraft\ncliniccraft.studio@gmail.com\n"
         f"If you prefer not to receive further messages from ClinicCraft, reply “unsubscribe”."
     )
 
@@ -107,7 +107,7 @@ def main():
         if db.execute("SELECT 1 FROM events WHERE lead_id=? OR email=?",(lead_id,email)).fetchone(): continue
         raw = make_message(row)
         subject = raw.splitlines()[0].removeprefix("Subject: ").strip()
-        body = "\\n".join(raw.splitlines()[2:])
+        body = "\n".join(raw.splitlines()[2:])
         msg = EmailMessage()
         msg["From"] = username; msg["To"] = email; msg["Subject"] = subject; msg["Reply-To"] = username
         msg.set_content(body)
