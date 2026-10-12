@@ -8,6 +8,10 @@ Official customer-facing email: `cliniccraft.studio@gmail.com`. Confirm the Gmai
 ## Live form setup
 The contact form uses Supabase project `xbyzcyzpszkpapfilzoj` and the public publishable key in `index.html`. This key is designed for browser use; row-level security on `public.enquiries` permits public INSERT only. Never place a Supabase service-role/secret key in this repository.
 
+## Source files
+- `ClinicCraft.html` — named copy of the website source.
+- `index.html` — kept in place as the GitHub Pages entry point so the existing `/ME/ClinicCraft/` URL continues to work.
+
 ## Publish
 This folder can be served as a static website. For GitHub Pages from the parent `ME` repository, enable Pages and serve the repository root; then this page is available at `/ME/ClinicCraft/` if Pages is already configured for that repo.
 
