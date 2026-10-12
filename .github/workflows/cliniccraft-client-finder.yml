@@ -1,0 +1,42 @@
+name: ClinicCraft Daily Client Finder
+
+on:
+  schedule:
+    # 08:00 India Standard Time (UTC+5:30)
+    - cron: "30 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cliniccraft-client-finder
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Discover public RSS results
+        run: python ClinicCraft/client-finder/find_leads.py
+
+      - name: Commit daily digest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ClinicCraft/client-finder/reports ClinicCraft/client-finder/LATEST_CLIENT_LEADS.md
+          if git diff --cached --quiet; then
+            echo "No report changes to commit."
+          else
+            git commit -m "Update ClinicCraft client leads digest"
+            git push
+          fi
