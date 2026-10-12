@@ -1,4 +1,4 @@
-# Aevorixa Studio
+# ClinicCraft
 
 A lightweight static landing page for presentation design, document/report formatting, editable educational templates, research support, and educational digital-safety resources.
 
