@@ -2,6 +2,9 @@
 
 A lightweight static landing page for presentation design, document/report formatting, editable educational templates, research support, and educational digital-safety resources.
 
+## Customer contact
+Official customer-facing email: `cliniccraft.studio@gmail.com`. Confirm the Gmail account is successfully created and accessible before promoting it.
+
 ## Live form setup
 The contact form uses Supabase project `xbyzcyzpszkpapfilzoj` and the public publishable key in `index.html`. This key is designed for browser use; row-level security on `public.enquiries` permits public INSERT only. Never place a Supabase service-role/secret key in this repository.
 
