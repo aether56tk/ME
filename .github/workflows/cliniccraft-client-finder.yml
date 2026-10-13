@@ -33,7 +33,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add ClinicCraft/client-finder/reports ClinicCraft/LATEST_CLIENT_LEADS.md
+          # find_leads.py writes reports under ClinicCraft/reports (not client-finder/reports).
+          git add ClinicCraft/reports ClinicCraft/LATEST_CLIENT_LEADS.md
           if git diff --cached --quiet; then
             echo "No report changes to commit."
           else
