@@ -26,6 +26,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Test lead finder (offline)
+        run: python -m unittest discover -s ClinicCraft/client-finder -p 'test_*.py'
+
       - name: Discover public RSS results
         run: python ClinicCraft/client-finder/find_leads.py
 
