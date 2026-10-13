@@ -24,6 +24,7 @@ class LeadFinderTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary) / "ClinicCraft"
             reports = root / "reports"
+            reports.mkdir(parents=True)
             with (
                 patch.object(find_leads, "ROOT", root),
                 patch.object(find_leads, "OUT", reports),
