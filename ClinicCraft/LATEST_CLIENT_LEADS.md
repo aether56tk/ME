@@ -1,16 +1,11 @@
-# ClinicCraft Client Finder — 2026-10-16
+# ClinicCraft Client Finder — 2026-10-17
 
 > Automated discovery only. These are unverified search results, not confirmed clients or guaranteed-open jobs.
 > Verify the original post, budget, date, eligibility, and payment terms before applying. No messages or applications are sent automatically.
 
-**Results:** 1 unique links
+**Results:** 0 unique links
 
-## 1. [Decktopus – AI Presentation Maker, Pitch Deck Generator & Rehearsal Coach - Quasa.io](https://news.google.com/rss/articles/CBMioAFBVV95cUxPNWxBcFhjRFgyeDFCQmpOcUVKS3gxcGhESlRJYkx0aDlaRHZyMndHUm9nR1hVYlN0MFRvVzFaa0lVSXRUR0tWa2VVR2NNdkZKM3FmWUZsUWJQRk1qSVFVN2NoSWdJWThtNW9fdzhjakRmTFBHam8xR1U3R0l0RFVQU1o1a2xnWXllZ3dvQi1Jel9vZEVRal9GUnZTVVBIcU5u?oc=5)
-- **Feed:** Google News: presentation / PowerPoint hiring
-- **Date:** 2026-10-09
-- **Snippet:** <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPNWxBcFhjRFgyeDFCQmpOcUVKS3gxcGhESlRJYkx0aDlaRHZyMndHUm9nR1hVYlN0MFRvVzFaa0lVSXRUR0tWa2VVR2NNdkZKM3FmWUZsUWJQRk1qSVFVN2NoSWdJWThtNW9fdzhjakRmTFBHam8xR1U3R0l0RFVQU1o1a2xnWXllZ3dvQi1Jel9vZEVRal9GUnZTVVBIcU5u?oc=5" target="_blank">Decktopus – AI Presentation Maker, Pitch Deck Generator & Rehearsal Coach</a> <font color="#6f6f6f">Quasa.io</font>
-- **Status:** Unverified — open the original listing and confirm it is still accepting applicants.
-- **Next step:** Check fit and payment terms; then send a personalised pitch manually.
+No matching results were found in the feeds today. This does not mean no jobs exist; RSS coverage is limited.
 
 ## Feed errors
 Some feeds could not be read today:
