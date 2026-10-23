@@ -1,5 +1,6 @@
 """Offline regression tests for the ClinicCraft public RSS lead finder."""
 import importlib.util
+from datetime import datetime
 from pathlib import Path
 import tempfile
 import unittest
@@ -9,6 +10,13 @@ SCRIPT = Path(__file__).with_name("find_leads.py")
 SPEC = importlib.util.spec_from_file_location("find_leads", SCRIPT)
 find_leads = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(find_leads)
+
+
+class FrozenDateTime:
+    """Deterministic clock for the RSS age filter in offline tests."""
+    @staticmethod
+    def now(tz=None):
+        return datetime(2026, 10, 13, 12, 0, tzinfo=tz)
 
 
 class LeadFinderTests(unittest.TestCase):
@@ -29,6 +37,7 @@ class LeadFinderTests(unittest.TestCase):
                 patch.object(find_leads, "ROOT", root),
                 patch.object(find_leads, "OUT", reports),
                 patch.object(find_leads, "TODAY", "2026-10-13"),
+                patch.object(find_leads, "datetime", FrozenDateTime),
                 patch.object(find_leads, "QUERIES", [("Fixture feed", "https://example.test/feed")]),
                 patch.object(find_leads, "fetch", return_value=rss),
             ):
