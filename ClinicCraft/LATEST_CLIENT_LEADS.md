@@ -1,14 +1,14 @@
-# ClinicCraft Client Finder — 2026-10-21
+# ClinicCraft Client Finder — 2026-10-23
 
 > Automated discovery only. These are unverified search results, not confirmed clients or guaranteed-open jobs.
 > Verify the original post, budget, date, eligibility, and payment terms before applying. No messages or applications are sent automatically.
 
 **Results:** 1 unique links
 
-## 1. [This skill made my slides so much better - X](https://news.google.com/rss/articles/CBMiVkFVX3lxTFA1M1Nvb3JzaHJSZ3IxU25ncC1RekRObWd5WF9zbUQzMkFNTTJObVhsUTZtVVoySW1SNF80eFcyaFdqa2RvZEhzNW1qbGNuUHRiZHZMczJB?oc=5)
+## 1. [GLF is Hiring a Learning Designer in Sustainable Finance and Landscape Finance — Home-based/ Remote Consultancy 2026 - Global South Opportunities](https://news.google.com/rss/articles/CBMicEFVX3lxTE9jb0kwWlZ5UGJIZzVQcUxQNEhGcWVKc0c5aHFDVHltOFIwSnB2emhvcHBQRlFmaEItcFIxT2dmN2pIcDlHRENDN0EyOHpfd3h5ZFk3TEJ1TzUyTzA5MTlyN250dTcwZlB2aFpZV3Qteno?oc=5)
 - **Feed:** Google News: presentation / PowerPoint hiring
-- **Date:** 2026-10-17
-- **Snippet:** <a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTFA1M1Nvb3JzaHJSZ3IxU25ncC1RekRObWd5WF9zbUQzMkFNTTJObVhsUTZtVVoySW1SNF80eFcyaFdqa2RvZEhzNW1qbGNuUHRiZHZMczJB?oc=5" target="_blank">This skill made my slides so much better</a> <font color="#6f6f6f">X</font>
+- **Date:** 2026-10-23
+- **Snippet:** <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE9jb0kwWlZ5UGJIZzVQcUxQNEhGcWVKc0c5aHFDVHltOFIwSnB2emhvcHBQRlFmaEItcFIxT2dmN2pIcDlHRENDN0EyOHpfd3h5ZFk3TEJ1TzUyTzA5MTlyN250dTcwZlB2aFpZV3Qteno?oc=5" target="_blank">GLF is Hiring a Learning Designer in Sustainable Finance and Landscape Finance — Home-based/ Remote Consultancy 2026</a> <font color="#6f6f6f">Global South Opportunities</font>
 - **Status:** Unverified — open the original listing and confirm it is still accepting applicants.
 - **Next step:** Check fit and payment terms; then send a personalised pitch manually.
 
