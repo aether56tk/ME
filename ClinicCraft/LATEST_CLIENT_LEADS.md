@@ -1,14 +1,21 @@
-# ClinicCraft Client Finder — 2026-11-03
+# ClinicCraft Client Finder — 2026-11-05
 
 > Automated discovery only. These are unverified search results, not confirmed clients or guaranteed-open jobs.
 > Verify the original post, budget, date, eligibility, and payment terms before applying. No messages or applications are sent automatically.
 
-**Results:** 1 unique links
+**Results:** 2 unique links
 
-## 1. [Super Chic Montreal Fashion Week 2026 Showcases Designer Collections and Creative Talent - FinancialContent](https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdkRUX2dPTXVvVGFtbHFpdDFLTHBOWGxWVml3OVkzSmVJZkFhMXh4cG1xWEN0U1MyOFA2aDM5T24yWHJocGpBSklpeVJ1YWFHTmRpRjZ5cE5ocXU0RlFBTVhRX1d3TXNxdVVmMncxRktCTGRra3JVTThUZ3dRU1NCcFlQMlhRTnVPbU5Qd0hWcVpHaDNweDVNYm5hM2NCaEc4MS10d2FKYnJyeVZWX2xLTHB1TUh2bkVrNWdGeFZCQ3dhZGJVekxveW91djRQTExIVnU4SjRwTG1OaWpHWEE5NF91cGVMV1U?oc=5)
+## 1. [7 Best AI PowerPoint Generators: Tested & Compared - Caribbean National Weekly](https://news.google.com/rss/articles/CBMimgFBVV95cUxNa0Y4WGFGcXUwaHRRM0l5RHpzVk9NNFQ0R3BXM0tmTURJWS1TenhOcVQ0U3U5S2ZCMTY0eUs2N05NeXV2VEpQdDUyMTBudDhCaTN3LTQxMnZLNDlwcG8yT3Y5THZSaXBrLWJiZmxnMVU0U2JocDQ4QVZLcE5sV0hnVDItLUZSU3pRUUhieUstbzBMVkhtOU8xeXhR?oc=5)
 - **Feed:** Google News: presentation / PowerPoint hiring
-- **Date:** 2026-10-28
-- **Snippet:** <a href="https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdkRUX2dPTXVvVGFtbHFpdDFLTHBOWGxWVml3OVkzSmVJZkFhMXh4cG1xWEN0U1MyOFA2aDM5T24yWHJocGpBSklpeVJ1YWFHTmRpRjZ5cE5ocXU0RlFBTVhRX1d3TXNxdVVmMncxRktCTGRra3JVTThUZ3dRU1NCcFlQMlhRTnVPbU5Qd0hWcVpHaDNweDVNYm5hM2NCaEc4MS10d2FKYnJyeVZWX2xLTHB1TUh2bkVrNWdGeFZCQ3dhZGJVekxveW91djRQTExIVnU4SjRwTG1OaWpHWEE5NF91cGVMV1U?oc=5" target="_blank">Super Chic Montreal Fashion Week 2026 Showcases Designer Collections and Creative Talent</a> <font color="#6f6f6f">F
+- **Date:** 2026-11-01
+- **Snippet:** <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxNa0Y4WGFGcXUwaHRRM0l5RHpzVk9NNFQ0R3BXM0tmTURJWS1TenhOcVQ0U3U5S2ZCMTY0eUs2N05NeXV2VEpQdDUyMTBudDhCaTN3LTQxMnZLNDlwcG8yT3Y5THZSaXBrLWJiZmxnMVU0U2JocDQ4QVZLcE5sV0hnVDItLUZSU3pRUUhieUstbzBMVkhtOU8xeXhR?oc=5" target="_blank">7 Best AI PowerPoint Generators: Tested & Compared</a> <font color="#6f6f6f">Caribbean National Weekly</font>
+- **Status:** Unverified — open the original listing and confirm it is still accepting applicants.
+- **Next step:** Check fit and payment terms; then send a personalised pitch manually.
+
+## 2. [GLF is Hiring a Learning Designer in Sustainable Finance and Landscape Finance — Home-based/ Remote Consultancy 2026 - Global South Opportunities](https://news.google.com/rss/articles/CBMicEFVX3lxTE9jb0kwWlZ5UGJIZzVQcUxQNEhGcWVKc0c5aHFDVHltOFIwSnB2emhvcHBQRlFmaEItcFIxT2dmN2pIcDlHRENDN0EyOHpfd3h5ZFk3TEJ1TzUyTzA5MTlyN250dTcwZlB2aFpZV3Qteno?oc=5)
+- **Feed:** Google News: presentation / PowerPoint hiring
+- **Date:** 2026-10-31
+- **Snippet:** <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE9jb0kwWlZ5UGJIZzVQcUxQNEhGcWVKc0c5aHFDVHltOFIwSnB2emhvcHBQRlFmaEItcFIxT2dmN2pIcDlHRENDN0EyOHpfd3h5ZFk3TEJ1TzUyTzA5MTlyN250dTcwZlB2aFpZV3Qteno?oc=5" target="_blank">GLF is Hiring a Learning Designer in Sustainable Finance and Landscape Finance — Home-based/ Remote Consultancy 2026</a> <font color="#6f6f6f">Global South Opportunities</font>
 - **Status:** Unverified — open the original listing and confirm it is still accepting applicants.
 - **Next step:** Check fit and payment terms; then send a personalised pitch manually.
 
