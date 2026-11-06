@@ -1,4 +1,4 @@
-# ClinicCraft Client Finder — 2026-11-05
+# ClinicCraft Client Finder — 2026-11-06
 
 > Automated discovery only. These are unverified search results, not confirmed clients or guaranteed-open jobs.
 > Verify the original post, budget, date, eligibility, and payment terms before applying. No messages or applications are sent automatically.
