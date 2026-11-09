@@ -1,16 +1,11 @@
-# ClinicCraft Client Finder — 2026-11-08
+# ClinicCraft Client Finder — 2026-11-09
 
 > Automated discovery only. These are unverified search results, not confirmed clients or guaranteed-open jobs.
 > Verify the original post, budget, date, eligibility, and payment terms before applying. No messages or applications are sent automatically.
 
-**Results:** 1 unique links
+**Results:** 0 unique links
 
-## 1. [7 Best AI PowerPoint Generators: Tested & Compared - Caribbean National Weekly](https://news.google.com/rss/articles/CBMimgFBVV95cUxNa0Y4WGFGcXUwaHRRM0l5RHpzVk9NNFQ0R3BXM0tmTURJWS1TenhOcVQ0U3U5S2ZCMTY0eUs2N05NeXV2VEpQdDUyMTBudDhCaTN3LTQxMnZLNDlwcG8yT3Y5THZSaXBrLWJiZmxnMVU0U2JocDQ4QVZLcE5sV0hnVDItLUZSU3pRUUhieUstbzBMVkhtOU8xeXhR?oc=5)
-- **Feed:** Google News: presentation / PowerPoint hiring
-- **Date:** 2026-11-01
-- **Snippet:** <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxNa0Y4WGFGcXUwaHRRM0l5RHpzVk9NNFQ0R3BXM0tmTURJWS1TenhOcVQ0U3U5S2ZCMTY0eUs2N05NeXV2VEpQdDUyMTBudDhCaTN3LTQxMnZLNDlwcG8yT3Y5THZSaXBrLWJiZmxnMVU0U2JocDQ4QVZLcE5sV0hnVDItLUZSU3pRUUhieUstbzBMVkhtOU8xeXhR?oc=5" target="_blank">7 Best AI PowerPoint Generators: Tested & Compared</a> <font color="#6f6f6f">Caribbean National Weekly</font>
-- **Status:** Unverified — open the original listing and confirm it is still accepting applicants.
-- **Next step:** Check fit and payment terms; then send a personalised pitch manually.
+No matching results were found in the feeds today. This does not mean no jobs exist; RSS coverage is limited.
 
 ## Feed errors
 Some feeds could not be read today:
