@@ -1,14 +1,14 @@
-# ClinicCraft Client Finder — 2026-11-11
+# ClinicCraft Client Finder — 2026-11-12
 
 > Automated discovery only. These are unverified search results, not confirmed clients or guaranteed-open jobs.
 > Verify the original post, budget, date, eligibility, and payment terms before applying. No messages or applications are sent automatically.
 
 **Results:** 1 unique links
 
-## 1. [Best Free AI Presentation Tools in 2026 – Build PowerPoints in Minutes - Times Bull](https://news.google.com/rss/articles/CBMickFVX3lxTE5MWmVPaTZWOVI3MXNvU2lGZmZWcEdfMlVxV0VsRU1BRWlldnpIMTFZUzBvMzQ3TWN6TkVBQ1l5YXEwcnAzTXhhcm11Y01KQ19hbGk5U3RxRU1hbS1VVEdlUVJXTHQ5MVlRZVltRGNCZF9UQQ?oc=5)
+## 1. [Beautiful.ai – AI Presentation Software, Automatic Layouts & Brand Controls - Quasa.io](https://news.google.com/rss/articles/CBMimAFBVV95cUxPLWswRGFTVjdNWDA2QUdaNHdzb2dDcnJWY1d4SzRJUmlYcUl1MlM3cmhsWFBzMEtPSHdBWE82QTF0V1kzMjcwVnUwOC1SeFlodW5Jc1ZkM19mMC03QVJ4Q1FINlNJdlhSUVpNN2RIMXJJblJkTzRSWTREV3oxUGVXb05PRzd3Zkg2UmFJZThrTW5lcjhZbmlwdQ?oc=5)
 - **Feed:** Google News: presentation / PowerPoint hiring
 - **Date:** 2026-11-10
-- **Snippet:** <a href="https://news.google.com/rss/articles/CBMickFVX3lxTE5MWmVPaTZWOVI3MXNvU2lGZmZWcEdfMlVxV0VsRU1BRWlldnpIMTFZUzBvMzQ3TWN6TkVBQ1l5YXEwcnAzTXhhcm11Y01KQ19hbGk5U3RxRU1hbS1VVEdlUVJXTHQ5MVlRZVltRGNCZF9UQQ?oc=5" target="_blank">Best Free AI Presentation Tools in 2026 – Build PowerPoints in Minutes</a> <font color="#6f6f6f">Times Bull</font>
+- **Snippet:** <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPLWswRGFTVjdNWDA2QUdaNHdzb2dDcnJWY1d4SzRJUmlYcUl1MlM3cmhsWFBzMEtPSHdBWE82QTF0V1kzMjcwVnUwOC1SeFlodW5Jc1ZkM19mMC03QVJ4Q1FINlNJdlhSUVpNN2RIMXJJblJkTzRSWTREV3oxUGVXb05PRzd3Zkg2UmFJZThrTW5lcjhZbmlwdQ?oc=5" target="_blank">Beautiful.ai – AI Presentation Software, Automatic Layouts & Brand Controls</a> <font color="#6f6f6f">Quasa.io</font>
 - **Status:** Unverified — open the original listing and confirm it is still accepting applicants.
 - **Next step:** Check fit and payment terms; then send a personalised pitch manually.
 
