@@ -1,21 +1,16 @@
-# ClinicCraft Client Finder — 2026-11-17
+# ClinicCraft Client Finder — 2026-11-18
 
 > Automated discovery only. These are unverified search results, not confirmed clients or guaranteed-open jobs.
 > Verify the original post, budget, date, eligibility, and payment terms before applying. No messages or applications are sent automatically.
 
-**Results:** 1 unique links
+**Results:** 0 unique links
 
-## 1. [Beautiful.ai – AI Presentation Software, Automatic Layouts & Brand Controls - Quasa.io](https://news.google.com/rss/articles/CBMimAFBVV95cUxPLWswRGFTVjdNWDA2QUdaNHdzb2dDcnJWY1d4SzRJUmlYcUl1MlM3cmhsWFBzMEtPSHdBWE82QTF0V1kzMjcwVnUwOC1SeFlodW5Jc1ZkM19mMC03QVJ4Q1FINlNJdlhSUVpNN2RIMXJJblJkTzRSWTREV3oxUGVXb05PRzd3Zkg2UmFJZThrTW5lcjhZbmlwdQ?oc=5)
-- **Feed:** Google News: presentation / PowerPoint hiring
-- **Date:** 2026-11-10
-- **Snippet:** <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPLWswRGFTVjdNWDA2QUdaNHdzb2dDcnJWY1d4SzRJUmlYcUl1MlM3cmhsWFBzMEtPSHdBWE82QTF0V1kzMjcwVnUwOC1SeFlodW5Jc1ZkM19mMC03QVJ4Q1FINlNJdlhSUVpNN2RIMXJJblJkTzRSWTREV3oxUGVXb05PRzd3Zkg2UmFJZThrTW5lcjhZbmlwdQ?oc=5" target="_blank">Beautiful.ai – AI Presentation Software, Automatic Layouts & Brand Controls</a> <font color="#6f6f6f">Quasa.io</font>
-- **Status:** Unverified — open the original listing and confirm it is still accepting applicants.
-- **Next step:** Check fit and payment terms; then send a personalised pitch manually.
+No matching results were found in the feeds today. This does not mean no jobs exist; RSS coverage is limited.
 
 ## Feed errors
 Some feeds could not be read today:
 
-- Reddit: PowerPoint and slide design requests: HTTPError: HTTP Error 403: Forbidden
+- Reddit: PowerPoint and slide design requests: HTTPError: HTTP Error 404: Not Found
 - Reddit: document formatting requests: HTTPError: HTTP Error 429: Too Many Requests
 
 ## ClinicCraft offer reference
